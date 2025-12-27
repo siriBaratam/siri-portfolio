@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="relative min-h-screen w-full bg-gradient-to-br from-[#0b0b1f] via-[#1a1240] to-[#05050f] flex items-center justify-center text-center">
+    <section className="relative min-h-screen w-full bg-gradient-to-br from-[#0b0b1f] via-[#0B2545] to-[#05050f] flex items-center justify-center text-center">
       
       {/* Glow container */}
       <div className="absolute inset-0 overflow-hidden">
