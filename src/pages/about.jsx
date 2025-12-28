@@ -2,7 +2,6 @@ const About = () => {
   return (
     <section className="relative w-full bg-gradient-to-br from-[#05050f] via-[#0b0b1f] to-[#05050f] py-24">
       <div className="mx-auto flex max-w-7xl flex-col items-center gap-16 px-6 md:flex-row">
-
         {/* Left Content */}
         <div className="flex-1">
           <h2 className="mb-6 text-3xl font-bold text-indigo-400 sm:text-4xl">
@@ -31,12 +30,31 @@ const About = () => {
               by coffee and lo-fi beats!
             </span>
           </div> */}
+          <div className="flex flex-wrap justify-evenly gap-4">
+            <a
+              href="src/assets/siri_resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full border border-indigo-500/30 bg-indigo-500/10 px-6 py-3 text-sm font-medium text-indigo-300 transition hover:bg-indigo-500/20 hover:text-white"
+            >
+              View Resume
+              <span className="text-lg">👁️</span>
+            </a>
+            <a
+              href="src/assets/siri_resume.pdf"
+              download
+              className="inline-flex items-center gap-2 rounded-full border border-indigo-500/30 bg-indigo-500/10 px-6 py-3 text-sm font-medium text-indigo-300 transition hover:bg-indigo-500/20 hover:text-white right-0"
+            >
+              Download Resume
+              <span className="text-lg">⬇️</span>
+            </a>
+          </div>
         </div>
 
         {/* Right Profile Image */}
         <div className="flex flex-1 justify-center">
           <div className="relative rounded-full bg-gradient-to-br from-indigo-500/20 to-purple-500/20 p-1">
-            <div className="rounded-full bg-[#0b0b1f] p-4">
+            <div className="rounded-full bg-[#0b0b1f] p-4 hover:border-indigo-500/30 hover:shadow-xl hover:shadow-indigo-500/10">
               <img
                 src="src\assets\profile1.jpeg" // replace with your image path
                 alt="Profile"
@@ -45,7 +63,6 @@ const About = () => {
             </div>
           </div>
         </div>
-
       </div>
     </section>
   );
