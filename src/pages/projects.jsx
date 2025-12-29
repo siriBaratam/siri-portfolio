@@ -3,7 +3,7 @@ const projects = [
     title: "NCC Website",
     description:
       "A comprehensive platform for National Cadet Corps featuring event management, registration system, and member portal.",
-    image: "src/assets/projects/ncc.png",
+    image: "/projects/ncc.png",
     tech: ["React", "Tailwind", "Node.js","Express", "MySql"],
     code: "#",
     demo: "#",
@@ -12,7 +12,7 @@ const projects = [
     title: "College Portal",
     description:
       "Integrated student management system with attendance tracking, grade management, and communication tools.",
-    image: "src/assets/projects/gpt.png",
+    image: "/projects/gpt.png",
     tech: ["React", "Tailwind", "Node.js", "MySql"],
     code: "#",
     demo: "#",
@@ -21,7 +21,7 @@ const projects = [
     title: "Photography Landing Page",
     description:
       "Stunning portfolio website for professional photographers with gallery, booking system, and client testimonials.",
-    image: "src/assets/projects/photography.png",
+    image: "/projects/photography.png",
     tech: ["Next.js", "Tailwind", "EmailJS"],
     code: "#",
     demo: "#",
@@ -30,7 +30,7 @@ const projects = [
     title: "My Portfolio",
     description:
       "A personal portfolio website showcasing my projects, skills, and experience, designed with a modern UI and responsive layout.",
-    image: "src/assets/projects/portfolio.png",
+    image: "/projects/portfolio.png",
     tech: ["React", "Tailwind"],
     code: "#",
     demo: "#",

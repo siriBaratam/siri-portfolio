@@ -52,9 +52,9 @@ const Hero = () => {
         </div>
 
         {/* CTA */}
-        <button className="inline-flex items-center gap-2 rounded-full border border-purple-400/40 px-8 py-3 text-sm font-medium text-white transition hover:bg-purple-500/10 hover:border-purple-400">
+        <a href="#projects"><button className="inline-flex items-center gap-2 rounded-full border border-purple-400/40 px-8 py-3 text-sm font-medium text-white transition hover:bg-purple-500/10 hover:border-purple-400 cursor-pointer">
           View My Work
-        </button>
+        </button></a>
 
         {/* Floating Arrow */}
         <div className="mt-10 flex justify-center">
