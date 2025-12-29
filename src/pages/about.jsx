@@ -17,9 +17,10 @@ const About = () => {
 
           <p className="mb-8 text-sm leading-relaxed text-gray-300 sm:text-base">
             My strengths lie in rapid prototyping, workflow design, and bringing
-            ideas to life through clean, efficient code. I'm also an avid
+            ideas to life through clean, efficient code. 
+            {/* I'm also an avid
             podcaster, sharing insights about technology and development with a
-            growing community.
+            growing community. */}
           </p>
 
           {/* Fun Fact */}

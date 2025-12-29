@@ -9,7 +9,7 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 mx-auto max-w-3xl px-6">
+      <div className="relative z-10 mx-auto max-w-3xl px-10">
         <h1 className="mb-4 text-4xl font-bold text-white sm:text-5xl md:text-6xl">
           Siri Baratam
         </h1>
