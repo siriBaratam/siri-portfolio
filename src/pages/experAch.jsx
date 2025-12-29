@@ -21,7 +21,7 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <section className="relative w-full bg-gradient-to-br from-[#05050f] via-[#0b0b1f] to-[#05050f] py-24">
+    <section id="experience" className="relative w-full bg-gradient-to-br from-[#05050f] via-[#0b0b1f] to-[#05050f] py-24">
       <div className="mx-auto max-w-6xl px-6">
 
         {/* Title */}
@@ -44,11 +44,11 @@ const Experience = () => {
                 }`}
               >
                 {/* Dot */}
-                <div className="absolute left-1/2 top-4 z-10 h-3 w-3 -translate-x-1/2 rounded-full bg-indigo-400"></div>
+                <div className="absolute left-1/2 top-3 z-10 h-3 w-3 -translate-x-1/2 rounded-full bg-indigo-400"></div>
 
                 {/* Card */}
                 <div
-                  className={`w-full md:w-[45%] rounded-2xl border border-indigo-500/10 bg-[#0b0b1f]/70 p-6 transition hover:border-indigo-500/30 hover:shadow-lg hover:shadow-indigo-500/10 ${
+                  className={`w-full md:w-[45%] rounded-2xl border border-indigo-500/15 bg-[#0b0b1f]/70 p-6 transition hover:border-indigo-500/30 hover:shadow-lg hover:shadow-indigo-500/10 ${
                     index % 2 === 0
                       ? "md:mr-auto md:text-right"
                       : "md:ml-auto md:text-left"

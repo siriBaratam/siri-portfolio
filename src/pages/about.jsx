@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section className="relative w-full bg-gradient-to-br from-[#05050f] via-[#0b0b1f] to-[#05050f] py-24">
+    <section id="about" className="relative w-full bg-gradient-to-br from-[#05050f] via-[#0b0b1f] to-[#05050f] py-24">
       <div className="mx-auto flex max-w-7xl flex-col items-center gap-16 px-6 md:flex-row">
         {/* Left Content */}
         <div className="flex-1">

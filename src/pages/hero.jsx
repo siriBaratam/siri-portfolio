@@ -2,7 +2,7 @@ import { ArrowBigDown, Github, Linkedin, Mail } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen w-full bg-gradient-to-br from-[#0b0b1f] via-[#0B2545] to-[#05050f] flex items-center justify-center text-center">
+    <section id="hero" className="relative min-h-screen w-full bg-gradient-to-br from-[#0b0b1f] via-[#0B2545] to-[#05050f] flex items-center justify-center text-center">
       {/* Glow container */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -left-32 -top-32 h-96 w-96 rounded-full bg-purple-700/30 blur-3xl"></div>

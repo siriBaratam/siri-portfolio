@@ -39,7 +39,7 @@ const projects = [
 
 const FeaturedProjects = () => {
   return (
-    <section className="relative w-full bg-gradient-to-br from-[#05050f] via-[#13315C] to-[#05050f] py-24">
+    <section id="projects" className="relative w-full bg-gradient-to-br from-[#05050f] via-[#13315C] to-[#05050f] py-24">
       <div className="mx-auto max-w-7xl px-6">
 
         {/* Section Title */}

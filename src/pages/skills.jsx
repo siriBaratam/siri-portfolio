@@ -33,7 +33,7 @@ const skillsData = [
 
 const Skills = () => {
   return (
-    <section className="relative w-full bg-gradient-to-br from-[#05050f] via-[#0b0b1f] to-[#05050f] py-24">
+    <section id="skills" className="relative w-full bg-gradient-to-br from-[#05050f] via-[#0b0b1f] to-[#05050f] py-24">
       <div className="mx-auto max-w-7xl px-6">
         {/* Section Title */}
         <h2 className="mb-16 text-center text-3xl font-bold text-indigo-400 sm:text-4xl">
